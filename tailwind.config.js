@@ -88,8 +88,8 @@ module.exports = {
           '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
       },
       borderRadius: {
-        'tremor-small': '0.375rem',
-        'tremor-default': '0.5rem',
+        'tremor-small': '0.25rem',
+        'tremor-default': '0.375rem',
         'tremor-full': '9999px',
       },
       fontSize: {
@@ -97,6 +97,15 @@ module.exports = {
         'tremor-default': ['0.875rem', { lineHeight: '1.25rem' }],
         'tremor-title': ['1.125rem', { lineHeight: '1.75rem' }],
         'tremor-metric': ['1.875rem', { lineHeight: '2.25rem' }],
+      },
+      height: {
+        screen: ['100vh', '100dvh'],
+      },
+      minHeight: {
+        screen: ['100vh', '100dvh'],
+      },
+      maxHeight: {
+        screen: ['100vh', '100dvh'],
       },
     },
   },

@@ -4,7 +4,7 @@ import { NavigationItem } from './NavigationItem';
 
 export const Sidebar = () => (
   <Flex
-    className="h-full w-56 bg-gray-900 text-white"
+    className="h-full w-56 bg-gray-900 dark:bg-dark-tremor-background-subtle text-white"
     flexDirection="col"
     justifyContent="start"
     alignItems="stretch"

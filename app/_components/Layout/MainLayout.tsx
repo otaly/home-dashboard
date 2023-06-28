@@ -6,10 +6,12 @@ type MainLayoutProps = {
 };
 
 export const MainLayout = ({ children }: MainLayoutProps) => (
-  <Flex justifyContent="start" alignItems="start" className="relative">
+  <Flex justifyContent="start" alignItems="stretch" className="relative">
     <aside className="h-screen sticky top-0">
       <Sidebar />
     </aside>
-    <main className="flex-1">{children}</main>
+    <main className="flex-1 bg-tremor-background dark:bg-dark-tremor-background">
+      {children}
+    </main>
   </Flex>
 );
