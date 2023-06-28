@@ -29,7 +29,7 @@ type NavigationItemProps = {
   variant: NavigationItemVariant;
 };
 
-const NavigationItem = ({ variant }: NavigationItemProps) => {
+export const NavigationItem = ({ variant }: NavigationItemProps) => {
   const pathname = usePathname();
 
   const props = navigationItemPropsObjects[variant];
@@ -48,5 +48,3 @@ const NavigationItem = ({ variant }: NavigationItemProps) => {
     </a>
   );
 };
-
-export default NavigationItem;

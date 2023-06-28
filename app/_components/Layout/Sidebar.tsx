@@ -1,8 +1,8 @@
 import { Flex } from '@tremor/react';
-import Logo from './Logo';
-import NavigationItem from './NavigationItem';
+import { Logo } from '../Elements';
+import { NavigationItem } from './NavigationItem';
 
-const Sidebar = () => (
+export const Sidebar = () => (
   <Flex
     className="h-full w-56 bg-gray-900 text-white"
     flexDirection="col"
@@ -27,5 +27,3 @@ const Sidebar = () => (
     </div>
   </Flex>
 );
-
-export default Sidebar;

@@ -1,11 +1,11 @@
 import { Flex } from '@tremor/react';
-import Sidebar from './Sidebar';
+import { Sidebar } from './Sidebar';
 
 type MainLayoutProps = {
   children: React.ReactNode;
 };
 
-const MainLayout = ({ children }: MainLayoutProps) => (
+export const MainLayout = ({ children }: MainLayoutProps) => (
   <Flex justifyContent="start" alignItems="start" className="relative">
     <aside className="h-screen sticky top-0">
       <Sidebar />
@@ -13,5 +13,3 @@ const MainLayout = ({ children }: MainLayoutProps) => (
     <main className="flex-1">{children}</main>
   </Flex>
 );
-
-export default MainLayout;
