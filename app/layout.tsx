@@ -1,7 +1,8 @@
-import { Noto_Sans } from 'next/font/google';
+import { Inter } from 'next/font/google';
+import MainLayout from './_components/MainLayout';
 import './globals.css';
 
-const notoSans = Noto_Sans({ weight: ['400'], subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Home Dashboard',
@@ -15,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={notoSans.className}>{children}</body>
+      <body className={inter.className}>
+        <MainLayout>{children}</MainLayout>
+      </body>
     </html>
   );
 }
