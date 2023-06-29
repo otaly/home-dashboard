@@ -1,7 +1,5 @@
 import { Flex } from '@tremor/react';
-import { Balance } from './_components/Cards/Balance';
-import { Expenditure } from './_components/Cards/Expenditure';
-import { Subscriptions } from './_components/Cards/Subscriptions';
+import { Balance, Expenditure, Subscriptions } from './_components/Cards';
 
 const Page = () => (
   <Flex
