@@ -6,6 +6,7 @@ import {
   UsersIcon,
 } from '@heroicons/react/24/outline';
 import { Icon } from '@tremor/react';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ElementType } from 'react';
 
@@ -39,12 +40,12 @@ export const NavigationItem = ({ variant }: NavigationItemProps) => {
     : 'text-slate-400 hover:text-slate-300 group-hover:text-slate-300 duration-100';
 
   return (
-    <a
+    <Link
       className={`group flex items-center py-1 ${colorStyle}`}
       href={props.href}
     >
       <Icon icon={props.icon} className={colorStyle} />
       <span>{props.text}</span>
-    </a>
+    </Link>
   );
 };
