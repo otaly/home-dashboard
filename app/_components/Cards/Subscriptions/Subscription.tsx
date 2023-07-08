@@ -1,5 +1,3 @@
-'use client';
-
 import type { SubscriptionCategory } from '@/app/_types';
 import { formatMoney } from '@/utils/format';
 import { Card, Flex, Metric, Text } from '@tremor/react';

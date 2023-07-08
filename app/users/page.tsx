@@ -14,6 +14,7 @@ type ResultWithData =
 
 const fetch: () => Promise<Result> = () =>
   Promise.resolve({ success: false, error: 'sample error' });
+
 const fetchData: () => Promise<ResultWithData> = () =>
   Promise.resolve({ data: { id: 'id', name: 'name' } });
 

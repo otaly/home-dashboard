@@ -1,3 +1,5 @@
+'use client';
+
 import { SubscriptionCategory } from '@/app/_types';
 import {
   BoltIcon,
