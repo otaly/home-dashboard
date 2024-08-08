@@ -10,7 +10,7 @@ export const MainLayout = ({ children }: MainLayoutProps) => (
     <aside className="h-screen sticky top-0">
       <Sidebar />
     </aside>
-    <main className="flex-1 bg-tremor-background dark:bg-dark-tremor-background">
+    <main className="flex-1 bg-tremor-background dark:bg-dark-tremor-background overflow-auto">
       {children}
     </main>
   </Flex>
