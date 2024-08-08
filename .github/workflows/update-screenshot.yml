@@ -10,6 +10,8 @@ jobs:
   update-screenshot:
     name: Update Screenshot
     runs-on: macos-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
