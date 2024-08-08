@@ -17,3 +17,7 @@ pnpm dev
 ## Screenshots
 
 by [otaly/readme-screenshot-action](https://github.com/otaly/readme-screenshot-action)
+
+<!-- [README-SCREENSHOT-BEGIN] -->
+![http://localhost:3000/](__screenshots__/371cfbd.png)
+<!-- [README-SCREENSHOT-END] -->
